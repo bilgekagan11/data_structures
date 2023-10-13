@@ -1,3 +1,7 @@
+//DESCRIPTION:
+/* it is a queue struct . it consider enqueue 
+, dequeue , initialize , printing integer
+, checking full or not ,  checking size of queue */
 #include <stdio.h>
 #include <stdlib.h>
  typedef struct LINKED_QUEUE_NODE_s *LINKED_QUEUE_NODE;
