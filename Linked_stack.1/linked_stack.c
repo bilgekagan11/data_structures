@@ -1,3 +1,8 @@
+//DESCRIPTION : 
+/*it's for  creating a stack structures that consider pushing , popping 
+ , printing ( char and int ) , initialize 
+ , checking top  and checking sturcture is empty or not 
+*/
 #include <stdio.h>
 #include <stdlib.h>
 typedef struct LINKED_STACK_NODE_s *LINKED_STACK_NODE;
