@@ -63,25 +63,5 @@ void print_array(ARRAY_QUEUE queue) {
         printf("%d ", queue->array[i]);
     }
     printf("\n");
-}int main() {
-    ARRAY_QUEUE myQueue = create_queue(5);
-
-    enqueue(1, myQueue);
-    enqueue(31, myQueue);
-    enqueue(3, myQueue);
-    enqueue(3, myQueue);
-    enqueue(4, myQueue);
-    enqueue(13, myQueue);
-
-    dequeue(myQueue);
-    print_array(myQueue);
-  int x =  dequeue(myQueue);
-    print_array(myQueue);
-   printf("\n\n %d", x);
-    free(myQueue->array);
-    free(myQueue);
-
-
-    return 0;
 }
 
